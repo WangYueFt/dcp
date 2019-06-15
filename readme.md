@@ -42,3 +42,16 @@ or
 python main.py --exp_name=dcp_v2 --model=dcp --emb_nn=dgcnn --pointer=transformer --head=svd --eval --model_path=xx/yy
 
 where xx/yy is the pretrained model
+
+## Citation
+Please cite this paper if you want to use it in your work,
+
+	@article{dcp,
+	  title={Deep Closest Point: Learning Representations for Point Cloud Registration},
+	  author={Wang, Yue and Solomon, Justin M.},
+	  journal={arXiv preprint arXiv:1905.03304},
+	  year={2019}
+	}
+
+## License
+MIT License
