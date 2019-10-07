@@ -105,7 +105,7 @@ class ModelNet40(Dataset):
         R_ba = R_ab.T
         translation_ab = np.array([np.random.uniform(-0.5, 0.5), np.random.uniform(-0.5, 0.5),
                                    np.random.uniform(-0.5, 0.5)])
-        translation_ba = -R_ba.T.dot(translation_ab)
+        translation_ba = -R_ba.dot(translation_ab)
 
         pointcloud1 = pointcloud.T
 
