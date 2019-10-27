@@ -46,10 +46,11 @@ where xx/yy is the pretrained model
 ## Citation
 Please cite this paper if you want to use it in your work,
 
-	@article{dcp,
+	@InProceedings{Wang_2019_ICCV,
 	  title={Deep Closest Point: Learning Representations for Point Cloud Registration},
 	  author={Wang, Yue and Solomon, Justin M.},
-	  journal={arXiv preprint arXiv:1905.03304},
+	  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+	  month = {October},
 	  year={2019}
 	}
 
